@@ -29,6 +29,7 @@ module.exports = {
             .addField('Command Modules', `${emoji.Fun} \`${config.Prefix}help fun\`\n${emoji.Info} \`${config.Prefix}help info\`\n${emoji.Moderation} \`${config.Prefix}help mod\`\n${emoji.Utility} \`${config.Prefix}help utility\`\n${emoji.Camera} \`${config.Prefix}help image\`\n${emoji.DoggoLul} \`${config.Prefix}help animals\`\n${emoji.Wink} \`${config.Prefix}help others\`\n${emoji.Misc} \`${config.Prefix}help misc\``)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(intro)
@@ -41,6 +42,7 @@ module.exports = {
             .addField('Commands', Fun)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(fun)
@@ -53,6 +55,7 @@ module.exports = {
             .addField('Commands', Info)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(info)
@@ -65,6 +68,7 @@ module.exports = {
             .addField('Commands', Moderation)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(mod)
@@ -77,6 +81,7 @@ module.exports = {
             .addField('Commands', Utility)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(utility)
@@ -89,6 +94,7 @@ module.exports = {
             .addField('Commands', Image)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(image)
@@ -101,6 +107,7 @@ module.exports = {
             .addField('Commands', Animals)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(animals)
@@ -113,6 +120,7 @@ module.exports = {
             .addField('Commands', Others)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(other)
@@ -125,6 +133,7 @@ module.exports = {
             .addField('Commands', Misc)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+            .setColor("#00FFFF")
             .setTimestamp()
 
             message.channel.send(misc)
@@ -144,6 +153,7 @@ module.exports = {
         .addField('Aliases', `\`\`\`${command.aliases.length < 1 ? 'None' : command.aliases.join(', ')}\`\`\``, true)
         .addField('Example', `\`\`\`${command.example}\`\`\``, true)
         .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
+        .setColor("#00FFFF")
         .setTimestamp()
 
         message.channel.send(embed)
