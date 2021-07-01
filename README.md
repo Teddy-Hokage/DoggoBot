@@ -1,8 +1,8 @@
-# Doggo
+
 
 A cool multi purpose discord bot with commands for Fun, Moderation, Utility, Image and Animals also with owner only commands !! and also make sure you `Star` the repo too :D
 
-[Add It](https://discord.com/api/oauth2/authorize?client_id=818092139496996864&permissions=8&scope=bot) | [Join Our Discord](https://discord.gg/RWSEj6JrjJ) | [Vote](https://top.gg/bot/818092139496996864/vote)
+
 
 [![DiscordBanner](https://invidget.switchblade.xyz/RWSEj6JrjJ)](https://discord.gg/RWSEj6JrjJ)
 
@@ -26,7 +26,7 @@ A cool multi purpose discord bot with commands for Fun, Moderation, Utility, Ima
 
 ◙ Under scopes you'll see bot click that and under you see `Bot Permissions` select the permissions
 
-◙ Copy the invite link which is generated on the `Scopes`
+◙ Copy the invite link which is generated on the `Scolpes`
 
 ◙ Go to bot tab then you'll see `TOKEN` click copy 
 
